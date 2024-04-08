@@ -1,0 +1,18 @@
+{
+    "manifest_version" : 2 ,
+    "name" : "Sentinel" , 
+    "version" : "0.1.0" , 
+    "description" : "Provides security to your browser , have a safe day browsing y'all" , 
+    
+    "icons" : {
+        "48" : "icons/logo48.png" ,
+        "96" :  "icons/logo96.png"
+     } ,
+    
+    "permissions" : ["activeTab"] , 
+
+    "browser_action" : {
+        "default_popup" : "popup/PopUp.html",
+        "default_title" : "Sentinel"
+        }
+}
